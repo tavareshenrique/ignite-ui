@@ -11,16 +11,16 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@storybook/addon-essentials": "7.0.18",
-    "@storybook/addon-interactions": "7.0.18",
-    "@storybook/addon-links": "7.0.18",
-    "@storybook/blocks": "7.0.18",
-    "@storybook/react": "7.0.18",
-    "@storybook/react-vite": "7.0.18",
+    "@storybook/addon-essentials": "7.0.24",
+    "@storybook/addon-interactions": "7.0.24",
+    "@storybook/addon-links": "7.0.24",
+    "@storybook/blocks": "7.0.24",
+    "@storybook/react": "7.0.24",
+    "@storybook/react-vite": "7.0.24",
     "@storybook/storybook-deployer": "2.8.16",
     "@storybook/testing-library": "0.0.13",
     "@vitejs/plugin-react": "4.0.0",
-    "storybook": "7.0.18",
+    "storybook": "7.0.24",
     "vite": "4.3.9"
   },
   "dependencies": {
