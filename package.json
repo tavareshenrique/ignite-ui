@@ -5,7 +5,8 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "clean:all": "sudo rm -rf node_modules && rm -rf packages/*/node_modules && rm -rf package-lock.json && rm -rf packages/*/dist && rm -rf packages/*/.turbo && rm -rf packages/*/storybook-static"
   },
   "devDependencies": {
     "turbo": "1.10.3"
