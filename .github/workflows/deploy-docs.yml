@@ -17,9 +17,19 @@ jobs:
         with:
           node-version: 16
       
-      - run: npm ci
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
 
-      - run: npm run build
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build packages
+        run: pnpm build
+
 
       - name: Deploy Storybook
         working-directory: ./packages/docs
