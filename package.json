@@ -6,9 +6,13 @@
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=packages/docs && changeset publish",
     "clean:all": "sudo rm -rf node_modules && rm -rf packages/*/node_modules && rm -rf package-lock.json && rm -rf packages/*/dist && rm -rf packages/*/.turbo && rm -rf packages/*/storybook-static"
   },
   "devDependencies": {
+    "@changesets/cli": "2.26.2",
     "turbo": "1.10.3"
   }
 }
