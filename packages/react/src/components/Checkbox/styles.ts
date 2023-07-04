@@ -1,5 +1,5 @@
-import * as Checkbox from '@radix-ui/react-checkbox'
-import { styled, keyframes } from '../../styles'
+import * as Checkbox from '@radix-ui/react-checkbox';
+import { styled, keyframes } from '../../styles';
 
 export const CheckboxContainer = styled(Checkbox.Root, {
   all: 'unset',
@@ -20,10 +20,10 @@ export const CheckboxContainer = styled(Checkbox.Root, {
     backgroundColor: '$ignite300',
   },
 
-  '&:focus': {
+  '&:focus, &[data-state="checked"]': {
     border: '2px solid $ignite300',
   },
-})
+});
 
 const slideIn = keyframes({
   from: {
@@ -32,7 +32,7 @@ const slideIn = keyframes({
   to: {
     transform: 'translateY(0)',
   },
-})
+});
 
 const slideOut = keyframes({
   from: {
@@ -41,7 +41,7 @@ const slideOut = keyframes({
   to: {
     transform: 'translateY(-100%)',
   },
-})
+});
 
 export const CheckboxIndicator = styled(Checkbox.Indicator, {
   color: '$white',
@@ -55,4 +55,4 @@ export const CheckboxIndicator = styled(Checkbox.Indicator, {
   '&[data-state="unchecked"]': {
     animation: `${slideOut} 200ms ease-out`,
   },
-})
+});

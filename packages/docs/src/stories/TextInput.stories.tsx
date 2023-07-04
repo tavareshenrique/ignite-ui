@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextInput, ITextInputProps } from '@ihenrits-ui/react'
+import type { Meta, StoryObj } from '@storybook/react';
+import { Box, Text, TextInput, ITextInputProps } from '@ihenrits-ui/react';
 
 export default {
   title: 'Form/Text Input',
@@ -16,25 +16,26 @@ export default {
           <Text size="sm">Email address</Text>
           {Story()}
         </Box>
-      )
+      );
     },
   ],
-} as Meta<ITextInputProps>
+} as Meta<ITextInputProps>;
 
 export const Primary: StoryObj<ITextInputProps> = {
   args: {
     placeholder: 'Type your name',
   },
-}
+};
 
 export const Disabled: StoryObj<ITextInputProps> = {
   args: {
     disabled: true,
   },
-}
+};
 
 export const WithPrefix: StoryObj<ITextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
-}
+};

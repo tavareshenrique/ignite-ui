@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar, IAvatarProps } from '@ihenrits-ui/react'
+import type { Meta, StoryObj } from '@storybook/react';
+import { Avatar, IAvatarProps } from '@ihenrits-ui/react';
 
 export default {
   title: 'Data display/Avatar',
@@ -14,13 +14,13 @@ export default {
     src: {
       control: { type: 'text' },
     },
-  }
-} as Meta<IAvatarProps>
+  },
+} as Meta<IAvatarProps>;
 
-export const Primary: StoryObj<IAvatarProps> = {}
+export const Primary: StoryObj<IAvatarProps> = {};
 
 export const WithFallback: StoryObj<IAvatarProps> = {
   args: {
     src: undefined,
   },
-}
+};

@@ -1,14 +1,14 @@
-import { ComponentProps } from 'react'
+import { ComponentProps } from 'react';
 
-import { styled } from '../../styles'
+import { styled } from '../../styles';
 
 export const Box = styled('div', {
-  padding: '$4',
+  padding: '$6',
   borderRadius: '$md',
   backgroundColor: '$gray800',
   border: '1px solid $gray600',
-})
+});
 
 export interface IBoxProps extends ComponentProps<typeof Box> {}
 
-Box.displayName = 'Box'
+Box.displayName = 'Box';

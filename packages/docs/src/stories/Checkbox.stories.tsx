@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, ICheckboxProps } from '@ihenrits-ui/react'
+import type { Meta, StoryObj } from '@storybook/react';
+import { Box, Text, Checkbox, ICheckboxProps } from '@ihenrits-ui/react';
 
 export default {
   title: 'Form/Checkbox',
@@ -15,9 +15,9 @@ export default {
           {Story()}
           <Text size="sm">Accept terms of use</Text>
         </Box>
-      )
+      );
     },
   ],
-} as Meta<ICheckboxProps>
+} as Meta<ICheckboxProps>;
 
-export const Primary: StoryObj<ICheckboxProps> = {}
+export const Primary: StoryObj<ICheckboxProps> = {};

@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextArea, ITextAreaProps } from '@ihenrits-ui/react'
+import type { Meta, StoryObj } from '@storybook/react';
+import { Box, Text, TextArea, ITextAreaProps } from '@ihenrits-ui/react';
 
 export default {
   title: 'Form/Text Area',
@@ -16,19 +16,19 @@ export default {
           <Text size="sm">Observations</Text>
           {Story()}
         </Box>
-      )
+      );
     },
   ],
-} as Meta<ITextAreaProps>
+} as Meta<ITextAreaProps>;
 
 export const Primary: StoryObj<ITextAreaProps> = {
   args: {
     placeholder: 'Add any observations...',
   },
-}
+};
 
 export const Disabled: StoryObj<ITextAreaProps> = {
   args: {
     disabled: true,
   },
-}
+};

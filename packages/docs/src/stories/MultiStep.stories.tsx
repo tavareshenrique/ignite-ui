@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react'
-import { Box, MultiStep, IMultiStepProps } from '@ihenrits-ui/react'
+import type { Meta, StoryObj } from '@storybook/react';
+import { Box, MultiStep, IMultiStepProps } from '@ihenrits-ui/react';
 
 export default {
   title: 'Form/Multi Step',
@@ -18,17 +18,17 @@ export default {
         >
           {Story()}
         </Box>
-      )
+      );
     },
   ],
-} as Meta<IMultiStepProps>
+} as Meta<IMultiStepProps>;
 
 export const Primary: StoryObj<IMultiStepProps> = {
   args: {},
-}
+};
 
 export const Full: StoryObj<IMultiStepProps> = {
   args: {
     currentStep: 4,
   },
-}
+};

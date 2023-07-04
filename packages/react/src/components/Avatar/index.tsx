@@ -1,7 +1,7 @@
-import { User } from 'phosphor-react'
+import { User } from 'phosphor-react';
 
-import { AvatarContainer, AvatarFallback, AvatarImage } from './styles'
-import { ComponentProps } from "@stitches/react"
+import { AvatarContainer, AvatarFallback, AvatarImage } from './styles';
+import { ComponentProps } from '@stitches/react';
 
 export interface IAvatarProps extends ComponentProps<typeof AvatarImage> {}
 
@@ -17,4 +17,4 @@ export function Avatar(props: IAvatarProps) {
   );
 }
 
-Avatar.displayName = 'Avatar'
+Avatar.displayName = 'Avatar';

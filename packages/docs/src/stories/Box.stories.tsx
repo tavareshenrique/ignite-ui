@@ -11,14 +11,13 @@ export default {
       <>
         <Text>Box Element</Text>
       </>
-    )
+    ),
   },
   argTypes: {
     children: {
-      control: { type: null }
-    }
-  }
+      control: { type: null },
+    },
+  },
 } satisfies Meta<IBoxProps>;
 
 export const Primary: StoryObj<IBoxProps> = {};
-
