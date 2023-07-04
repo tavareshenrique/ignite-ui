@@ -44,7 +44,7 @@ jobs:
       - name: Build packages
         run: pnpm build
         env:
-          TURBO_TOKEN: SI6LyxVCY2ocy6dP5dkTCEh8
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: henriquetavares
 
 
