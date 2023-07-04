@@ -8,7 +8,7 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs && changeset publish",
+    "release": "turbo run build --filter=!docs && changeset publish",
     "clean:all": "sudo rm -rf node_modules && rm -rf packages/*/node_modules && rm -rf pnpm-lock.yaml && rm -rf packages/*/dist && rm -rf packages/*/.turbo && rm -rf packages/*/storybook-static"
   },
   "devDependencies": {
