@@ -20,23 +20,21 @@
 </p>
 
 
-## Usage
+## :man_technologist: Uso
 
 ```sh
 yarn add @ihenrits-ui/react
 ```
 
-1. Example usage component
+1. Example de uso de um dos componentes:
 
 
     ```tsx
-    // It is important that the reset import happens before any of this.
     import { Text } from '@ihenrits-ui/react';
-
 
     <Text size="md">Lorem ipsum dolor sit amet.</Text>
     ```
 
-## License
+## :closed_book: Licença
 
-MIT &copy; [Licença](./LICENSE)
+This project is under the license [MIT](./LICENSE).
