@@ -37,4 +37,4 @@ yarn add @ihenrits-ui/react
 
 ## :closed_book: Licença
 
-This project is under the license [MIT](./LICENSE).
+Esse projeto usa linceça [MIT](./LICENSE).
