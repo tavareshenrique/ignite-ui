@@ -1,5 +1,11 @@
 # @ihenrits-ui/react
 
+## 2.2.2
+
+### Patch Changes
+
+- add size in TextInput
+
 ## 2.2.1
 
 ### Patch Changes
