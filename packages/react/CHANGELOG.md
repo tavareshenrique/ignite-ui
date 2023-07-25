@@ -1,5 +1,11 @@
 # @ihenrits-ui/react
 
+## 2.2.1
+
+### Patch Changes
+
+- fix type in TextInput
+
 ## 2.2.0
 
 ### Minor Changes
