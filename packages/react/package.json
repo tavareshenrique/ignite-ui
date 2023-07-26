@@ -1,6 +1,6 @@
 {
   "name": "@ihenrits-ui/react",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -10,6 +10,9 @@
     "dev": "tsup src/index.ts* --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix --ext .ts,.tsx"
   },
+  "files": [
+    "dist/**"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",

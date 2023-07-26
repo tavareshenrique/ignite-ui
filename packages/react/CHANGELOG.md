@@ -1,5 +1,11 @@
 # @ihenrits-ui/react
 
+## 2.3.0
+
+### Minor Changes
+
+- update files in package.json
+
 ## 2.2.2
 
 ### Patch Changes
