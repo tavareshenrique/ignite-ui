@@ -1,5 +1,11 @@
 # @ihenrits-ui/tokens
 
+## 1.2.1
+
+### Patch Changes
+
+- create a new red color called red600
+
 ## 1.2.0
 
 ### Minor Changes
