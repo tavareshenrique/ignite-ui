@@ -1,5 +1,11 @@
 # @ihenrits-ui/tokens
 
+## 1.2.2
+
+### Patch Changes
+
+- create a new red color 700
+
 ## 1.2.1
 
 ### Patch Changes
