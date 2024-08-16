@@ -26,10 +26,10 @@
     "vite": "4.3.9"
   },
   "dependencies": {
-    "@ihenrits-ui/eslint-config": "*",
-    "@ihenrits-ui/react": "*",
-    "@ihenrits-ui/tokens": "*",
-    "@ihenrits-ui/ts-config": "*",
+    "@ihenrits-ui/eslint-config": "workspace:*",
+    "@ihenrits-ui/react": "workspace:*",
+    "@ihenrits-ui/tokens": "workspace:*",
+    "@ihenrits-ui/ts-config": "workspace:*",
     "@storybook/addon-a11y": "6.5.12",
     "phosphor-react": "1.4.1",
     "polished": "4.2.2",

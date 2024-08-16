@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ihenrits-ui/ts-config": "*",
-    "@ihenrits-ui/eslint-config": "*",
+    "@ihenrits-ui/ts-config": "workspace:*",
+    "@ihenrits-ui/eslint-config": "workspace:*",
     "tsup": "6.7.0",
     "typescript": "5.0.4"
   }
