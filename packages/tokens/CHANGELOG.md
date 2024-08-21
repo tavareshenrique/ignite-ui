@@ -1,5 +1,11 @@
 # @ihenrits-ui/tokens
 
+## 1.2.4
+
+### Patch Changes
+
+- Remove color
+
 ## 1.2.3
 
 ### Patch Changes
